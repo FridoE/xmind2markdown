@@ -1,6 +1,6 @@
 # xmind2markdown
 
-xmind2markdown converts XMind mindmap files to markdown format. I created it to migrate from xmind to Obisidan. 
+xmind2markdown converts XMind mindmap files to markdown format. Useful for migrating to PKMS like Obsidian or other markdown-based systems. 
 
 ## Features
 - converts mindmap leaves to markdown headlines (`#`, `##`, …)
