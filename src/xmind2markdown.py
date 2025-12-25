@@ -89,6 +89,7 @@ def main():
         xmind_file = Path(sys.argv[1])
         markdown_file = Path(sys.argv[2])
         convert_xmind2markdown(xmind_file, markdown_file)
+        print("XMind file was converted to "+markdown_file.name)
     else:
         print("Usage: xmind2markdown input.xmind output.md")
         sys.exit(1)
