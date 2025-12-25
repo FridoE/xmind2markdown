@@ -8,14 +8,14 @@ xmind2markdown converts XMind mindmap files to markdown format. Useful for migra
 - supports the XMmind 2020+ format (JSON)
 
 ## Installation
-```bash
+```
 pip install xmind2markdown
+```
 
 ## Usage
-```bash
-```
 ```
 xmind2md input.xmind output.md
+```
 
 ## License
 MIT License
