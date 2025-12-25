@@ -6,8 +6,17 @@ requires = ["setuptools>=80", "setuptools-scm>=8"]
 
 [project]
 name = "xmind2markdown"
+authors = [
+  { name="Frithjof Engel", email="frithjof@fms-engel.de" },
+]
 version = "0.1.0"
 description = "XMind to Markdown converter" 
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
 
 [project.scripts]
 xmind2markdown = "xmind2markdown:main"

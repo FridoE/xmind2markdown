@@ -14,7 +14,7 @@ pip install xmind2markdown
 
 ## Usage
 ```
-xmind2md input.xmind output.md
+xmind2markdown input.xmind output.md
 ```
 
 ## License
