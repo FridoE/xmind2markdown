@@ -9,7 +9,7 @@ xmind2markdown converts XMind mindmap files to markdown format. I created it to 
 
 ## Installation
 ```bash
-pip install -e .
+pip install xmind2markdown
 
 ## Usage
 ```bash
@@ -17,3 +17,5 @@ pip install -e .
 ```
 xmind2md input.xmind output.md
 
+## License
+MIT License

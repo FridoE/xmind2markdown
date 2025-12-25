@@ -4,4 +4,4 @@ __pycache__/
 .venv
 .dist/
 build/
-
+src/xmind2markdown.egg-info/**
