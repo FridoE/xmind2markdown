@@ -16,6 +16,9 @@ classifiers = [
 license = "MIT"
 license-files = ["LICENSE"]
 
+[project.optional-dependencies]
+test = ["pytest"]
+
 [project.scripts]
 xmind2markdown = "xmind2markdown:main"
 
