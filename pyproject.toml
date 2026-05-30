@@ -1,15 +1,13 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
-requires = ["setuptools>=80", "setuptools-scm>=8"]
-
 
 [project]
 name = "xmind2markdown"
 authors = [
   { name="Frithjof Engel", email="frithjof@fms-engel.de" },
 ]
-version = "0.1.0"
+dynamic = ["version"]
 description = "XMind to Markdown converter" 
 classifiers = [
     "Programming Language :: Python :: 3",
